@@ -11,7 +11,7 @@ if(isset($_POST['submit'])){
     mysqli_query($conn, "INSERT INTO homeform(username, email, phone, subject) VALUES('$username','$email','$phone','$subject')");
 
     $to = "emailWazid@gmail.com";
-    $subject = "You have received an Enquiry from Construction Lead ";
+    $subject = "You have received an Enquiry from cscs ";
     $message = "
         Name : $username  <br>
         Email : $email  <br>

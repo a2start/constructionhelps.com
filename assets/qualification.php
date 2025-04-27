@@ -89,9 +89,9 @@ if(isset($_POST['submit'])){
 						<!-- <a href="#next" class="actions"></a> -->
 						
 						<div>
-						    <h4 style="color: #fff">Note : Test cost would be £43 including Admin Fee + VAT</h4>
-						    <h4 style="color: #fff">For Card cost £59 including + Admin Fee + VAT</h4>
-						    <h4 style="color: #fff">For courses £150 including + Admin Fee + VAT</h4>
+						    <h4 style="color: #fff">Note : Test cost would be £43 including Admin Fee & VAT</h4>
+						    <h4 style="color: #fff">For Card cost £59 including Admin Fee & VAT</h4>
+						    <h4 style="color: #fff">For courses £150 including Admin Fee & VAT</h4>
 						    <h4 style="color: #fff">NVQ COURSES £999 + VAT</h4>
 						</div>
 		        	</div>

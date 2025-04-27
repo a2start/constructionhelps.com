@@ -433,9 +433,6 @@ input::-ms-input-placeholder { /* Microsoft Edge */
     padding: 11px 55px;
 }
 
-.text-white{
-    color: #fff;
-}
 
 /* Responsive */
 @media screen and (max-width: 991px) {
@@ -514,4 +511,3 @@ input::-ms-input-placeholder { /* Microsoft Edge */
 	}
 	
 } 
-

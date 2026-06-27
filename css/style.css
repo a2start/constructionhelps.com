@@ -4959,8 +4959,17 @@ img{
 	left:0px;
 	top:0px;
 	right:0px;
-	bottom:130px;
+	bottom:0px;
 	background-color:#6DAFFE;
+}
+
+/* Fix blank space under Why Choose Us */
+.benefits-section.style-two::before{
+    bottom: 0 !important;
+}
+
+.benefits-section{
+    padding-bottom: 90px !important;
 }
 
 .benefits-section.style-two .inner-container{

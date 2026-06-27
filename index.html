@@ -26,80 +26,57 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<style>
-/* ==========================================
-   FIX "Why Choose Us" Section Blank Space
-   ========================================== */
-
-.mobile-vh,
-.benefits-section,
-.benefits-section.style-two{
-    height: auto !important;
-    min-height: auto !important;
-    max-height: none !important;
-    padding: 80px 0 !important;
-    margin: 0 !important;
-}
-
-.benefits-section .inner-container{
-    padding: 0 !important;
-    margin: 0 !important;
-}
-
-.benefits-section .row{
-    margin-bottom: 0 !important;
-}
-
-.benefits-section .feature-block{
-    margin: 0 0 30px !important;
-}
-
-.benefits-section .feature-block.mt-5{
-    margin-top: 30px !important;
-}
-
-.benefits-section .inner-box{
-    height: 100%;
-}
-
-.benefits-section .lower-text{
-    margin: 20px 0 0 !important;
-    padding: 0 !important;
-}
-
-@media (max-width:991px){
-
-    .mobile-vh,
-    .benefits-section,
-    .benefits-section.style-two{
-        padding:60px 0 !important;
-    }
-
-    .benefits-section .feature-block{
-        margin-bottom:25px !important;
-    }
-
-    .benefits-section .feature-block.mt-5{
-        margin-top:25px !important;
-    }
-}
-
-@media (max-width:767px){
-
-    .mobile-vh,
-    .benefits-section,
-    .benefits-section.style-two{
-        padding:40px 0 !important;
-    }
-
-    .benefits-section .feature-block{
-        margin-bottom:20px !important;
-    }
-
-    .benefits-section .feature-block.mt-5{
-        margin-top:20px !important;
-    }
-}
-	</style>
+	.banner-carousel .content-box h2:before{
+		display: none;
+	}
+	.containere {
+		width: 1600px;
+		margin: auto;
+	}
+	@media(max-width: 1600px){
+		.containere {
+			width: 100%;				
+		}
+	}
+	#cookies{
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+		color: #fff;
+		background-color: rgba(0, 0, 0, 0.7);
+		z-index: 1;
+		display: none;
+	}
+	.subcontainer{
+		width: 85%;
+		margin: auto;
+	}
+	.cookies {
+		min-height: 70px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 10px;
+	}
+	.mobile-vh{
+	    height: 128vh;
+	}
+	.mobile-padding{
+	    padding-left: 157px;
+	    color: #000;
+	}
+	@media (max-width: 600px){
+	       .mobile-vh{
+		    height: 170vh;
+		}
+		.mobile-padding{
+	    padding-left: 0px;
+	    color: #000;
+	    text-align: center;
+	}
+	}
+</style>
 </head>
 
 <body>
